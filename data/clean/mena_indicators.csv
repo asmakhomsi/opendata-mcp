@@ -1,0 +1,401 @@
+country_code,country_name,indicator_code,indicator_name,unit,year,value
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2010,3.91106195534028
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2011,4.5242115050527
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2012,8.89145091062317
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2013,3.25423910998847
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2014,2.91692692067458
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2015,4.78444700693889
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2016,6.39769480268756
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2017,5.59111590961663
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2018,4.26999020467083
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2019,1.95176821052891
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2020,2.41513094083413
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2021,7.22606307415477
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2022,9.26551551551552
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2023,9.32217375928322
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2024,4.04611455313434
+DZA,Algeria,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2025,1.41835151429016
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2010,11.2651882653185
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2011,10.0649259874818
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2012,7.11172943343082
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2013,9.4697198106492
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2014,10.0702154687481
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2015,10.370490343517
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2016,13.8136062148289
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2017,29.5066083940038
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2018,14.4014657807421
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2019,9.15279959324803
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2020,5.04493288977538
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2021,5.21404940513042
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2022,13.8956609775177
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2023,33.8847763115546
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2024,28.2705899322082
+EGY,"Egypt, Arab Rep.",FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2025,14.0735136645933
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2010,4.84551875852116
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2011,4.1624416292779
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2012,4.5152295667099
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2013,4.82462314269537
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2014,2.89947905006057
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2015,-0.876851359704049
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2016,-0.778430463054141
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2017,3.32389447576097
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2018,4.46231108475481
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2019,0.7615140472656
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2020,0.333294350628378
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2021,1.34609377243117
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2022,4.22915568897117
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2023,2.08486986327133
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2024,1.55659611283952
+JOR,Jordan,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2025,1.76646490894205
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2010,0.993557401226392
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2011,0.9069249096918
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2012,1.28712240079219
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2013,1.88065466724085
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2014,0.442310053557047
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2015,1.5579071134626
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2016,1.63531114327064
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2017,0.754663249323618
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2018,1.80391671141895
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2019,0.303386036590383
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2020,0.70596866133826
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2021,1.40195883962005
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2022,6.65704202759066
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2023,6.0911415250414
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2024,0.985256592004506
+MAR,Morocco,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2025,0.701902154839544
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2010,3.33897963601068
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2011,3.24002842009531
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2012,4.61184432206639
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2013,5.31623531326688
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2014,4.6255509953403
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2015,4.437371273215
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2016,3.6293993738438
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2017,5.30884839565844
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2018,7.30759176031651
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2019,6.72007532863799
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2020,5.63415115897624
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2021,5.706350208307
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2022,8.30646124447623
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2023,9.32899597507865
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2024,7.20661657168793
+TUN,Tunisia,FP.CPI.TOTL.ZG,"Inflation, consumer prices (annual %)",annual %,2025,5.15100197572676
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2010,4.80000000093564
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2011,2.99999999941909
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2012,2.40000000034432
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2013,2.60000000061164
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2014,4.09999999866501
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2015,3.20000000089023
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2016,3.90000000017621
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2017,1.49999999895587
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2018,1.40000000088281
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2019,0.899999999219148
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2020,-4.99999999908597
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2021,3.79999999900707
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2022,3.60000000094915
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2023,4.10000000005964
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2024,3.69999999907979
+DZA,Algeria,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2025,3.815543719231
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2010,5.14723485746742
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2011,1.76457194806041
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2012,2.22619979818487
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2013,2.18546605363386
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2014,2.91591188052836
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2015,4.37201907781687
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2016,4.34664345601914
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2017,4.18122099961562
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2018,5.33110861887155
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2019,5.55209307084222
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2020,3.55016483883115
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2021,3.29064601193245
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2022,6.58784560870467
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2023,3.76028052279247
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2024,2.3991692678251
+EGY,"Egypt, Arab Rep.",NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2025,4.39201068570188
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2010,2.6377158262256
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2011,2.90729315392207
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2012,2.40465716535539
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2013,2.72311205964112
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2014,3.32287328047509
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2015,2.52261671092148
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2016,2.11166806967252
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2017,2.50770398070352
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2018,1.85383415616927
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2019,1.85633006592765
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2020,-1.15257534158022
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2021,3.75201276755828
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2022,2.7468615450031
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2023,3.12900102017251
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2024,2.55605891810194
+JOR,Jordan,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2025,2.82660839845745
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2010,3.49955709403216
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2011,5.52464523319847
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2012,3.06234368502997
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2013,4.12221286860944
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2014,2.7192440802029
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2015,4.34458297635238
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2016,0.52118550608968
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2017,5.05789816173446
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2018,3.06564133025955
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2019,2.89097476137077
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2020,-7.17820744246774
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2021,8.15473889823681
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2022,1.81269242194809
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2023,3.65564411017931
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2024,3.79336515978963
+MAR,Morocco,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2025,4.59524349182247
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2010,2.97113275066512
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2011,-2.04663389535644
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2012,4.21667711535632
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2013,2.42993096446429
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2014,3.09032803070775
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2015,0.967834205635981
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2016,1.117231963992
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2017,2.25261437620587
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2018,2.60696965356362
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2019,1.55009304966742
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2020,-8.97512622934723
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2021,4.73603648206102
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2022,2.75228761004381
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2023,0.184015548469745
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2024,1.61444564976986
+TUN,Tunisia,NY.GDP.MKTP.KD.ZG,GDP growth (annual %),annual %,2025,2.49311010666248
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2010,22.161
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2011,22.803
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2012,27.872
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2013,25.459
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2014,25.664
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2015,30.377
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2016,26.228
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2017,30.295
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2018,30.709
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2019,31.202
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2020,35.767
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2021,33.828
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2022,31.359
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2023,29.995
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2024,29.884
+DZA,Algeria,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2025,29.444
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2010,24.583
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2011,29.426
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2012,34.439
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2013,34.12
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2014,32.198
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2015,34.16
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2016,33.655
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2017,32.644
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2018,26.252
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2019,20.631
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2020,18.463
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2021,18.21
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2022,16.342
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2023,17.153
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2024,17.291
+EGY,"Egypt, Arab Rep.",SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2025,18.293
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2010,30.059
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2011,30.787
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2012,28.853
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2013,29.536
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2014,27.612
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2015,30.914
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2016,35.61
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2017,35.438
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2018,38.941
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2019,37.205
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2020,42.458
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2021,43.862
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2022,42.028
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2023,38.837
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2024,39.053
+JOR,Jordan,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2025,38.876
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2010,17.621
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2011,17.931
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2012,18.642
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2013,19.162
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2014,19.97
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2015,20.826
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2016,22.265
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2017,22.167
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2018,22.431
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2019,22.475
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2020,26.795
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2021,25.053
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2022,22.713
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2023,21.974
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2024,22.372
+MAR,Morocco,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2025,21.882
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2010,29.573
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2011,42.639
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2012,38.444
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2013,34.828
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2014,36.912
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2015,34.967
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2016,35.119
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2017,35.315
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2018,34.877
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2019,37.867
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2020,41.242
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2021,39.309
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2022,37.826
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2023,38.484
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2024,38.85
+TUN,Tunisia,SL.UEM.1524.ZS,"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate)",% of total labor force ages 15-24,2025,38.075
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2010,9.96
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2011,9.96
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2012,10.97
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2013,9.82
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2014,10.207
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2015,11.206
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2016,10.202
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2017,12.0
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2018,12.112
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2019,12.302
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2020,14.08
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2021,13.656
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2022,12.382
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2023,11.645
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2024,11.655
+DZA,Algeria,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2025,11.633
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2010,8.757
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2011,11.849
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2012,12.597
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2013,13.154
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2014,13.105
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2015,13.052
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2016,12.45
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2017,11.767
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2018,9.855
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2019,7.851
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2020,7.974
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2021,7.441
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2022,6.546
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2023,6.753
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2024,6.817
+EGY,"Egypt, Arab Rep.",SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2025,6.781
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2010,12.5
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2011,12.9
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2012,12.2
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2013,12.6
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2014,11.9
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2015,13.075
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2016,15.275
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2017,18.12
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2018,18.257
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2019,16.801
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2020,19.213
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2021,19.837
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2022,18.2
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2023,16.62
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2024,16.693
+JOR,Jordan,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2025,16.535
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2010,9.09
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2011,8.91
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2012,8.99
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2013,9.23
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2014,9.7
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2015,9.46
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2016,9.3
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2017,9.22
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2018,9.272
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2019,9.191
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2020,11.189
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2021,10.551
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2022,9.413
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2023,8.896
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2024,9.103
+MAR,Morocco,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2025,9.0
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2010,13.049
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2011,18.334
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2012,17.63
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2013,15.934
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2014,14.259
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2015,15.159
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2016,15.557
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2017,15.33
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2018,15.459
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2019,17.153
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2020,17.651
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2021,16.632
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2022,15.3
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2023,15.106
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2024,15.341
+TUN,Tunisia,SL.UEM.TOTL.ZS,"Unemployment, total (% of total labor force) (modeled ILO estimate)",% of total labor force,2025,15.108
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2010,36188236.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2011,36903376.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2012,37646166.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2013,38414171.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2014,39205031.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2015,40019529.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2016,40850721.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2017,41689299.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2018,42505035.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2019,43294546.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2020,44042091.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2021,44761099.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2022,45477389.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2023,46164219.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2024,46814308.0
+DZA,Algeria,SP.POP.TOTL,"Population, total",people,2025,47435312.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2010,89196072.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2011,91093059.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2012,93161001.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2013,95333553.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2014,97528654.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2015,99597342.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2016,101644589.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2017,103696057.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2018,105682094.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2019,107553158.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2020,109315124.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2021,110957008.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2022,112618250.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2023,114535772.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2024,116538258.0
+EGY,"Egypt, Arab Rep.",SP.POP.TOTL,"Population, total",people,2025,118365995.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2010,7297043.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2011,7480424.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2012,7587127.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2013,7991809.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2014,8791710.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2015,9544729.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2016,10006367.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2017,10234226.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2018,10462306.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2019,10671891.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2020,10865228.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2021,11066356.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2022,11256263.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2023,11439213.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2024,11552876.0
+JOR,Jordan,SP.POP.TOTL,"Population, total",people,2025,11520684.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2010,32467016.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2011,32912588.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2012,33355241.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2013,33787571.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2014,34204780.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2015,34607588.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2016,35023457.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2017,35446392.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2018,35839760.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2019,36210898.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2020,36584208.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2021,36954442.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2022,37329064.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2023,37712505.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2024,38081173.0
+MAR,Morocco,SP.POP.TOTL,"Population, total",people,2025,38430770.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2010,10765980.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2011,10886035.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2012,11009647.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2013,11141361.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2014,11274288.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2015,11402264.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2016,11528674.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2017,11650498.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2018,11765514.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2019,11875081.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2020,11974057.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2021,12048622.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2022,12119334.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2023,12200431.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2024,12277109.0
+TUN,Tunisia,SP.POP.TOTL,"Population, total",people,2025,12348573.0
