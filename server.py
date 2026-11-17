@@ -30,7 +30,8 @@ INDICATOR_KEYS = {
 }
 MODELED_NOTE = "ILO modeled estimate (2024-2025 values are estimates)."
 
-mcp = FastMCP("mena-open-data")
+# log_level=WARNING hides the "Processing request ..." info lines in the terminal.
+mcp = FastMCP("mena-open-data", log_level="WARNING")
 
 
 # ---------- data loading and lookups ----------
