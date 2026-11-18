@@ -32,4 +32,7 @@ node_modules/
 CLAUDE.md
 .claude/
 
+# --- Presentation material (slides, notes, demo script): kept local, not on GitHub ---
+presentation/
+
 # NOTE: data/raw/, data/clean/, tests/ and results/ are deliverables: do NOT ignore them.
