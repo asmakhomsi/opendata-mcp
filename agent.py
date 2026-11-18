@@ -2,7 +2,8 @@
 
 Only the DATA ACCESS changes between the two modes:
   MODE=mcp    -> tools come from our MCP server (server.py, stdio) + the data://schema resource.
-  MODE=direct -> the raw CSV path + one tool run_python(code) (the LLM writes its own pandas code).
+  MODE=direct -> the raw CSV file + one tool run_python(code) (the LLM writes its own pandas code),
+                 run in a temporary sandbox folder that holds only a copy of the CSV.
 
 Usage (from the project root, with the .venv active):
     python agent.py "What was inflation in Tunisia in 2020?"            # mode from .env (MODE)
@@ -14,10 +15,14 @@ For each question it logs: final answer, tool calls (name + args), tokens, laten
 
 import argparse
 import asyncio
+import base64
 import json
 import os
+import re
+import shutil
 import subprocess
 import sys
+import tempfile
 import time
 from pathlib import Path
 
@@ -34,6 +39,10 @@ SERVER_FILE = PROJECT_ROOT / "server.py"
 MAX_ROUNDS = 8              # max LLM calls per question (stops infinite tool loops)
 PYTHON_TIMEOUT_S = 30       # max run time of one run_python call
 MAX_TOOL_OUTPUT_CHARS = 4000  # long tool outputs are cut to this size before going to the LLM
+
+# Strings that must never appear in tool arguments. run_python refuses code that contains
+# them, and every attempt is logged in "forbidden_in_tool_args" (checked case-insensitively).
+FORBIDDEN_IN_TOOL_ARGS = [".env"]
 
 # The SAME system prompt is used in both modes (fair comparison, rule 14).
 SYSTEM_PROMPT = """You are a data assistant for MENA open data: World Bank World Development Indicators \
@@ -67,17 +76,29 @@ def load_settings() -> dict:
     return settings
 
 
+def secret_variants(secret: str) -> list[str]:
+    """The key in plain, reversed and base64 forms (simple tricks to sneak it out)."""
+    raw = secret.encode("utf-8")
+    forms = {secret, secret[::-1]}
+    for encoded in (base64.b64encode(raw), base64.urlsafe_b64encode(raw),
+                    base64.b64encode(raw[::-1]), base64.urlsafe_b64encode(raw[::-1])):
+        text = encoded.decode("ascii")
+        forms.update({text, text.rstrip("=")})
+    return sorted(forms, key=len, reverse=True)  # longest first, so replacements don't overlap badly
+
+
 def redact(text: str, secret: str | None) -> str:
     """Clean any text before it is printed, logged or sent back to the LLM.
 
-    - removes the API key;
+    - removes the API key, also reversed or base64-encoded;
     - replaces the user's home folder (e.g. C:\\Users\\<name>) with "~", because Python
       error tracebacks contain full paths and the logs are published on GitHub.
     """
     if not text:
         return text
     if secret:
-        text = text.replace(secret, "<hidden>")
+        for form in secret_variants(secret):
+            text = text.replace(form, "<hidden>")
     for home in {str(Path.home()), str(Path.home()).replace("\\", "/")}:
         text = text.replace(home, "~")
     return text
@@ -132,17 +153,34 @@ RUN_PYTHON_TOOL = {
 }
 
 
-def run_python(code: str) -> tuple[bool, str]:
+def forbidden_hits(args) -> list[str]:
+    """Which forbidden strings appear in the tool arguments (case-insensitive).
+
+    A word only counts when it is not followed by a letter, digit or "_", so ".env" and
+    ".ENV" match but "os.environ" (harmless) does not.
+    """
+    text = args if isinstance(args, str) else json.dumps(args, ensure_ascii=False)
+    return [word for word in FORBIDDEN_IN_TOOL_ARGS
+            if re.search(re.escape(word) + r"(?![A-Za-z0-9_])", text, flags=re.IGNORECASE)]
+
+
+def run_python(code: str, workdir: Path) -> tuple[bool, str]:
     """Run code in a subprocess with a timeout. Return (ok, stdout + stderr).
 
-    Safety: the DeepSeek settings are removed from the child's environment, and the
-    working directory is data/clean (not the project root where .env lives).
+    Safety layers:
+      1. code that mentions '.env' (any case) is refused and never run;
+      2. the working directory is a temporary sandbox folder holding only a copy of the CSV;
+      3. the DeepSeek settings are removed from the child's environment;
+      4. (in answer_question) the output is redacted before it is logged or sent to the LLM.
+    Note: this is not a full OS sandbox; code could still use absolute paths.
     """
+    if forbidden_hits(code):
+        return False, "ERROR: blocked. Code that mentions '.env' is not allowed."
     child_env = {k: v for k, v in os.environ.items() if not k.startswith("DEEPSEEK_")}
     try:
         done = subprocess.run(
             [sys.executable, "-c", code], capture_output=True, text=True, encoding="utf-8",
-            errors="replace", timeout=PYTHON_TIMEOUT_S, cwd=DATA_FILE.parent, env=child_env,
+            errors="replace", timeout=PYTHON_TIMEOUT_S, cwd=workdir, env=child_env,
         )
     except subprocess.TimeoutExpired:
         return False, f"ERROR: code stopped after {PYTHON_TIMEOUT_S} s (timeout)."
@@ -151,20 +189,22 @@ def run_python(code: str) -> tuple[bool, str]:
 
 
 class DirectBackend:
-    """The raw CSV file + one run_python tool."""
+    """The raw CSV file + one run_python tool, run inside a sandbox folder."""
 
     mode = "direct"
 
-    def __init__(self):
+    def __init__(self, sandbox: Path):
+        self.sandbox = sandbox   # temporary folder: only a copy of the CSV, nothing else
         self.tools = [RUN_PYTHON_TOOL]
         self.context = ""
 
     async def setup(self) -> None:
-        """Short description of the file: path, columns (read from the file) and format.
+        """Copy the CSV into the sandbox and describe it: file name, columns and format.
 
-        Only the file NAME is given (run_python runs inside data/clean), so no local
+        Only the file NAME is given (run_python runs inside the sandbox), so no local
         path or user name ends up in the prompts or the logs.
         """
+        shutil.copy2(DATA_FILE, self.sandbox / DATA_FILE.name)
         columns = list(pd.read_csv(DATA_FILE, nrows=0).columns)
         self.context = (
             f"Data access: the dataset is the CSV file '{DATA_FILE.name}' "
@@ -180,7 +220,7 @@ class DirectBackend:
             return False, f"ERROR: unknown tool '{name}'. The only tool is run_python."
         if "code" not in args:
             return False, "ERROR: run_python needs a 'code' argument."
-        return run_python(args["code"])
+        return run_python(args["code"], self.sandbox)
 
 
 # ---------- the agent loop (same for both modes) ----------
@@ -213,7 +253,8 @@ async def answer_question(question: str, backend, client, settings: dict) -> dic
     ]
     log = {"question": question, "mode": backend.mode, "model": settings["DEEPSEEK_MODEL"],
            "answer": None, "tool_calls": [], "rounds": 0,
-           "tokens": {"prompt": 0, "completion": 0, "total": 0}, "latency_s": None, "errors": []}
+           "tokens": {"prompt": 0, "completion": 0, "total": 0}, "latency_s": None, "errors": [],
+           "forbidden_in_tool_args": []}   # e.g. [".env"] if the LLM tried to touch .env
     start = time.perf_counter()
 
     for _ in range(MAX_ROUNDS):
@@ -247,7 +288,13 @@ async def answer_question(question: str, backend, client, settings: dict) -> dic
             output = redact(output, secret)
             if len(output) > MAX_TOOL_OUTPUT_CHARS:
                 output = output[:MAX_TOOL_OUTPUT_CHARS] + "\n...[output cut]"
-            log["tool_calls"].append({"name": call.function.name, "args": args, "ok": ok})
+            hits = forbidden_hits(args)
+            for word in hits:
+                if word not in log["forbidden_in_tool_args"]:
+                    log["forbidden_in_tool_args"].append(word)
+            logged_args = json.loads(redact(json.dumps(args, ensure_ascii=False), secret))
+            log["tool_calls"].append({"name": call.function.name, "args": logged_args, "ok": ok,
+                                      "blocked": bool(hits)})
             if not ok:
                 log["errors"].append(f"tool {call.function.name}: {output[:300]}")
             messages.append({"role": "tool", "tool_call_id": call.id, "content": output})
@@ -261,9 +308,11 @@ async def answer_question(question: str, backend, client, settings: dict) -> dic
 async def run_questions(questions: list[str], mode: str, client, settings: dict) -> list[dict]:
     """Answer several questions in one mode. The MCP server is started once for all of them."""
     if mode == "direct":
-        backend = DirectBackend()
-        await backend.setup()
-        return [await answer_question(q, backend, client, settings) for q in questions]
+        # Sandbox: a new temporary folder with only a copy of the CSV, deleted at the end.
+        with tempfile.TemporaryDirectory(prefix="mena_sandbox_") as sandbox:
+            backend = DirectBackend(Path(sandbox))
+            await backend.setup()
+            return [await answer_question(q, backend, client, settings) for q in questions]
 
     if mode == "mcp":
         params = StdioServerParameters(command=sys.executable, args=[str(SERVER_FILE)])
