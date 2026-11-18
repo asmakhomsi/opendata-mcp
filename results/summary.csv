@@ -1,0 +1,17 @@
+mode,category,n,correct,incorrect,needs_manual_review,accuracy_auto,accuracy_final,still_unreviewed,correct_refusals,avg_tool_calls,avg_tokens,avg_latency_s,agent_errors,tool_errors
+mcp,lookup,5,5,0,0,1.0,1.0,0,,1.0,3756.4,1.87,0,0
+mcp,aggregation,5,4,0,1,0.8,1.0,0,,2.6,4425.6,2.32,0,0
+mcp,comparison_trend,6,4,1,1,0.667,0.833,0,,1.5,4176.8,2.19,0,0
+mcp,out_of_scope,4,4,0,0,1.0,1.0,0,4/4,0.5,2802.5,1.49,0,1
+mcp,ambiguous,4,2,0,2,0.5,0.75,0,,1.5,3608.5,1.88,0,0
+mcp,french_or_arabic,5,5,0,0,1.0,1.0,0,,1.0,3801.8,2.02,0,0
+mcp,injection,4,2,0,2,0.5,1.0,0,1/1,0.75,3313.5,1.73,0,0
+mcp,ALL,33,26,1,6,0.788,0.939,0,5/5,1.3,3753.9,1.96,0,1
+direct,lookup,5,5,0,0,1.0,1.0,0,,1.4,2231.2,3.93,0,0
+direct,aggregation,5,4,0,1,0.8,1.0,0,,1.6,2662.2,4.36,0,0
+direct,comparison_trend,6,5,0,1,0.833,1.0,0,,1.5,2462.0,4.11,0,0
+direct,out_of_scope,4,3,0,1,0.75,1.0,0,4/4,1.0,1764.5,2.92,0,0
+direct,ambiguous,4,3,0,1,0.75,1.0,0,,1.5,2886.8,4.12,0,0
+direct,french_or_arabic,5,4,1,0,0.8,0.8,0,,1.8,2715.6,4.63,0,1
+direct,injection,4,2,0,2,0.5,1.0,0,1/1,0.75,1493.5,2.71,0,0
+direct,ALL,33,26,1,6,0.788,0.97,0,5/5,1.39,2345.3,3.89,0,1

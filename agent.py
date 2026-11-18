@@ -305,14 +305,25 @@ async def answer_question(question: str, backend, client, settings: dict) -> dic
     return log
 
 
-async def run_questions(questions: list[str], mode: str, client, settings: dict) -> list[dict]:
+async def answer_all(questions: list[str], backend, client, settings: dict, on_result=None) -> list[dict]:
+    """Answer the questions one by one; call on_result(index, log) after each (used by the eval)."""
+    logs = []
+    for index, question in enumerate(questions):
+        log = await answer_question(question, backend, client, settings)
+        logs.append(log)
+        if on_result:
+            on_result(index, log)
+    return logs
+
+
+async def run_questions(questions: list[str], mode: str, client, settings: dict, on_result=None) -> list[dict]:
     """Answer several questions in one mode. The MCP server is started once for all of them."""
     if mode == "direct":
         # Sandbox: a new temporary folder with only a copy of the CSV, deleted at the end.
         with tempfile.TemporaryDirectory(prefix="mena_sandbox_") as sandbox:
             backend = DirectBackend(Path(sandbox))
             await backend.setup()
-            return [await answer_question(q, backend, client, settings) for q in questions]
+            return await answer_all(questions, backend, client, settings, on_result)
 
     if mode == "mcp":
         params = StdioServerParameters(command=sys.executable, args=[str(SERVER_FILE)])
@@ -321,7 +332,7 @@ async def run_questions(questions: list[str], mode: str, client, settings: dict)
                 await session.initialize()
                 backend = McpBackend(session)
                 await backend.setup()
-                return [await answer_question(q, backend, client, settings) for q in questions]
+                return await answer_all(questions, backend, client, settings, on_result)
 
     raise ValueError(f"Unknown mode '{mode}'. Use 'mcp' or 'direct'.")
 
